@@ -11,55 +11,96 @@ const OurProduct = () => {
         <h1 className="text-[40px] font-bold text-[#3A3A3A] text-center">
           Our Products
         </h1>
-        <Flex className="grid grid-cols-4 items-center mt-10 gap-[32px]">
-          <ProductCart
-            src="assets/product3.png"
-            title="Syltherine"
-            description="Stylish cafe chair"
-            price="2.500.000"
-          />
-          <ProductCart
-            src="assets/product3.png"
-            title="Syltherine"
-            description="Stylish cafe chair"
-            price="2.500.000"
-          />
-          <ProductCart
-            src="assets/product3.png"
-            title="Syltherine"
-            description="Stylish cafe chair"
-            price="2.500.000"
-          />
-          <ProductCart
-            src="assets/product3.png"
-            title="Syltherine"
-            description="Stylish cafe chair"
-            price="2.500.000"
-          />
-          <ProductCart
-            src="assets/product3.png"
-            title="Syltherine"
-            description="Stylish cafe chair"
-            price="2.500.000"
-          />
-          <ProductCart
-            src="assets/product3.png"
-            title="Syltherine"
-            description="Stylish cafe chair"
-            price="2.500.000"
-          />
-          <ProductCart
-            src="assets/product3.png"
-            title="Syltherine"
-            description="Stylish cafe chair"
-            price="2.500.000"
-          />
-          <ProductCart
-            src="assets/product3.png"
-            title="Syltherine"
-            description="Stylish cafe chair"
-            price="2.500.000"
-          />
+
+        <Flex className="flex flex-wrap mt-8 gap-[32px]">
+          <div className="max-w-[370px]">
+            <ProductCart
+              src="assets/product6.jpg"
+              badge={true}
+              badgebg="bg-[#E97171]"
+              title="-30%"
+              description="Stylish cafe chair"
+              heading="Syltherine"
+              price="2.500.000"
+            />
+          </div>
+          <div className="max-w-[370px]">
+            <ProductCart
+              src="assets/product6.jpg"
+              badge={true}
+              badgebg="bg-[#E97171]"
+              title="-30%"
+              description="Stylish cafe chair"
+              heading="Syltherine"
+              price="2.500.000"
+            />
+          </div>
+          <div className="max-w-[370px]">
+            <ProductCart
+              src="assets/product6.jpg"
+              badgebg="bg-[#2EC1AC]"
+              badge={true}
+              title="New!!"
+              description="Stylish cafe chair"
+              heading="Syltherine"
+              price="2.500.000"
+            />
+          </div>
+          <div className="max-w-[370px]">
+            <ProductCart
+              src="assets/product6.jpg"
+              badge={true}
+              title="-50%"
+              badgebg="bg-[#E97171]"
+              description="Stylish cafe chair"
+              heading="Syltherine"
+              price="2.500.000"
+            />
+          </div>
+          <div className="max-w-[370px]">
+            <ProductCart
+              src="assets/product6.jpg"
+              badge={true}
+              badgebg="bg-[#2EC1AC]"
+              title="New"
+              description="Stylish cafe chair"
+              heading="Syltherine"
+              price="2.500.000"
+            />
+          </div>
+          <div className="max-w-[370px]">
+            <ProductCart
+              src="assets/product6.jpg"
+              badgebg="bg-[#2EC1AC]"
+              badge={true}
+              title="New!!"
+              description="Stylish cafe chair"
+              heading="Syltherine"
+              price="2.500.000"
+            />
+          </div>
+          <div className="max-w-[370px]">
+            <ProductCart
+              src="assets/product6.jpg"
+              badge={true}
+              badgebg="bg-[#2EC1AC]"
+              title="New"
+              description="Stylish cafe chair"
+              heading="Syltherine"
+              price="2.500.000"
+            />
+          </div>
+          <div className="max-w-[370px]">
+            <ProductCart
+              src="assets/product6.jpg"
+              badge={true}
+              title="-50%"
+              badgebg="bg-[#E97171]"
+              description="Stylish cafe chair"
+              heading="Syltherine"
+              price="2.500.000"
+            />
+          </div>
         </Flex>
 
         <div className="flex justify-center">

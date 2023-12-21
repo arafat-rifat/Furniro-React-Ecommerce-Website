@@ -45,9 +45,7 @@ const ExploreMore = () => {
             </div>
           </div>
           {/* Slider Part */}
-          <div className="max-w-[372px]">
-            <Slider />
-          </div>
+          <div className="max-w-[372px]">{/* <Slider /> */}</div>
         </Flex>
       </Container>
     </section>

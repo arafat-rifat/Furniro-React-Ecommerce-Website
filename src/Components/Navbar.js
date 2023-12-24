@@ -23,10 +23,10 @@ const Navbar = () => {
           {/* MenuBar */}
           <div>
             <List className="flex justify-between items-center gap-[75px] text-base font-medium">
-              <ListItem href="#" className="font-bold" itemname="Home" />
-              <ListItem href="#" className="font-bold" itemname="Shop" />
-              <ListItem href="#" className="font-bold" itemname="About" />
-              <ListItem href="#" className="font-bold" itemname="Contact" />
+              <ListItem className="font-bold" itemname="Home" />
+              <ListItem className="font-bold" itemname="Shop" to="/Shop" />
+              <ListItem className="font-bold" itemname="About" />
+              <ListItem className="font-bold" itemname="Contact" />
             </List>
           </div>
 

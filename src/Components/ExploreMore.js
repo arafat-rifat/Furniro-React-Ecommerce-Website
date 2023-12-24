@@ -4,10 +4,11 @@ import CustomButton from "./CustomButton";
 import Slider from "./Slider";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Flex from "./Flex";
+import { Link } from "react-router-dom";
 
 const ExploreMore = () => {
   return (
-    <section className="bg-[#FCF8F3]">
+    <section className="bg-[#FCF8F3] mb-[67px]">
       <Container>
         <Flex className="flex gap-[42px] pl-[100px] py-[44px]">
           <Flex className="flex flex-col py-[180px]">
@@ -20,10 +21,12 @@ const ExploreMore = () => {
               <br /> prototipe of rooms that inspire you
             </p>
             <div>
-              <CustomButton
-                className="py-3 px-9 bg-[#B88E2F] text-white text-base font-semibold mt-[25px]"
-                title="Explore More"
-              />
+              <Link to="/Shop">
+                <CustomButton
+                  className="py-3 px-9 bg-[#B88E2F] text-white text-base font-semibold mt-[25px]"
+                  title="Explore More"
+                />
+              </Link>
             </div>
           </Flex>
           {/* Middle Part */}

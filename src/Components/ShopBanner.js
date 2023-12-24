@@ -1,7 +1,7 @@
 import React from "react";
 import Flex from "../Components/Flex";
 
-const ShopBanner = ({ breadCum }) => {
+const ShopBanner = ({ breadCum, title }) => {
   return (
     <section
       className="bg-cover bg-center h-[316px]"
@@ -9,7 +9,7 @@ const ShopBanner = ({ breadCum }) => {
     >
       <div className="py-[121px] backdrop-blur-sm">
         <Flex className="flex flex-col items-center text-center">
-          <h2 className="text-[48px] font-medium">Shop</h2>
+          <h2 className="text-[48px] font-medium">{title}</h2>
           <span className="text-base font-medium">
             Home
             <span className="ml-2">></span>

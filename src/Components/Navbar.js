@@ -26,7 +26,11 @@ const Navbar = () => {
               <ListItem className="font-bold" itemname="Home" />
               <ListItem className="font-bold" itemname="Shop" to="/Shop" />
               <ListItem className="font-bold" itemname="About" />
-              <ListItem className="font-bold" itemname="Contact" />
+              <ListItem
+                className="font-bold"
+                itemname="Contact"
+                to="/Contact"
+              />
             </List>
           </div>
 

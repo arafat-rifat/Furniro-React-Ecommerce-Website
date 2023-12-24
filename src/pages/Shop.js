@@ -7,7 +7,7 @@ import LowerBadge from "../Components/LowerBadge";
 const Shop = () => {
   return (
     <>
-      <ShopBanner breadCum="Shop" />
+      <ShopBanner title="Shop" breadCum="Shop" />
       <FilterSection />
       <ShopProduct />
       <LowerBadge />

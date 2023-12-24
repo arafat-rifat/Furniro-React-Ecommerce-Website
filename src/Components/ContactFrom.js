@@ -83,7 +83,7 @@ const ContactFrom = () => {
             <div>
               <CustomButton
                 title="Submit"
-                className="px-[90px] py-[13px] bg-[#B88E2F] rounded-md border border-solid border-[#B88E2F]"
+                className="px-[90px] py-[13px] bg-[#B88E2F] rounded-md border border-solid border-[#B88E2F] text-white"
               />
             </div>
           </div>

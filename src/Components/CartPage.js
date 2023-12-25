@@ -72,7 +72,7 @@ const CartPage = () => {
                 </p>
               </Flex>
               <Flex className="flex justify-between items-center gap-[62px]">
-                <p className="text-base font-medium">Subtotal</p>
+                <p className="text-base font-medium">Total</p>
                 <p className="text-xl font-medium text-[#B88E2F]">
                   Rs. 250,000.00
                 </p>

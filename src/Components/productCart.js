@@ -5,6 +5,7 @@ import CustomButton from "./CustomButton";
 import { IoMdShare } from "react-icons/io";
 import { MdOutlineCompareArrows } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const productCart = ({
   badge,

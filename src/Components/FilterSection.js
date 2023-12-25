@@ -15,9 +15,15 @@ const FilterSection = () => {
               Showing 1-16 of 32 results
             </p>
           </Flex>
-          <Flex className="flex items-center justify-center gap-[17px]">
-            <label htmlFor="cars">Shorted By</label>
-            <select name="Furnitures" id="furnitures" className="outline-none">
+          <Flex className="flex items-center justify-center gap-[17px] ">
+            <label htmlFor="cars" className="text-[20px] font-normal">
+              Shorted By
+            </label>
+            <select
+              name="Furnitures"
+              id="furnitures"
+              className="outline-none py-3 px-8 text-[20px] font-normal text-[#9F9F9F]"
+            >
               <option value="Bed">Bed Set</option>
               <option value="Soofa">Soofa Set</option>
               <option value="Dining">Dining Set</option>

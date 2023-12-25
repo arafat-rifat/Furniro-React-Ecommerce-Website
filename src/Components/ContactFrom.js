@@ -10,8 +10,8 @@ const ContactFrom = () => {
   return (
     <section className="mt-[82px]">
       <Container>
-        <Flex className="flex gap-[30px] justify-center items-center">
-          <div className="flex flex-col gap-[40px] items-center p-[50px]">
+        <Flex className="flex gap-[30px] justify-center items-baseline">
+          <div className="flex flex-col gap-[40px] items-center px-[50px] pt-[58px]">
             <Flex className="flex justify-center items-center gap-[30px]">
               <FaLocationDot className="text-[24px]" />
 

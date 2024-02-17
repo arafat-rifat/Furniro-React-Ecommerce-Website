@@ -6,6 +6,7 @@ import { FaUser, FaRegHeart } from "react-icons/fa";
 import { IoSearchSharp } from "react-icons/io5";
 import { GrCart } from "react-icons/gr";
 import Flex from "./Flex";
+import { FaBars } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -21,6 +22,7 @@ const Navbar = () => {
           </div>
 
           {/* MenuBar */}
+          <FaBars className="block lg:hidden ml-auto" />
           <div>
             <List className="flex justify-between items-center gap-[75px] text-base font-medium">
               <ListItem className="font-bold" itemname="Home" />
@@ -35,7 +37,7 @@ const Navbar = () => {
           </div>
 
           {/* Icon Bar */}
-          <Flex className="flex items-center text-[28px] gap-[45px]">
+          <Flex className="lg:flex items-center text-[28px] gap-[45px] hidden md:block">
             <FaUser />
             <IoSearchSharp />
             <FaRegHeart />
